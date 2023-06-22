@@ -1,0 +1,21 @@
+@media screen and (max-width: 960px){
+	article > div.good{width: 50%;}
+	article.Projects div{width: 50%;float: left;padding:0px 20px;}
+	article.Projects div > h3{font-size: 2.5vw;word-spacing: 20px;}
+	div.add{top: 85%; left: 0%;}
+	div.add > h2{font-size: 3vw;}
+	div.add > p{font-size: 2vw;}
+}
+@media screen and (max-width: 850px){
+	article > p{font-size: 2vw;}
+}
+@media screen and (max-width: 500px){
+	div a{display: none;}
+	div a.BR{display: block;}
+	#ar{display: none;}
+	h1.first > b.show{display: inline;padding: none;margin: none;top: 50%; left: 50%; transform: translate(-50%,-50%);text-align: center;font-size: 5vw;}
+	article.Projects div,div.good{width: 100%;float: left;padding:0px 20px;}
+	article.Projects div > h3{font-size: 3vw;}
+	article > p{font-size: 2.5vw;}
+	article > div.good{width: 100%;}
+}

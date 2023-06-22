@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*{box-sizing: border-box;margin: 0px; font-family:  Bell MT,sans-serif;}
+body{z-index: -1;}
+div{overflow: hidden;width: 100%;position: sticky;position: -webkit-sticky;top: 0px;background-color: rgb(255,255,255);}
+div#index{z-index: 1;border-bottom: 2px inset;padding: 15px;}
+div a,span.right > a{text-decoration: none;color: rgba(20,20,20,0.8); font-size:18px;padding: 10px;}
+span.right{float: right;direction: ltr;}
+div a:hover{background:rgba(190,190,190,0.2);}
+div a b{padding: 0px 10px;}
+div.rel{position: relative;text-align: center;}
+img.span{width: 100%;}
+h1.first{;position: absolute;display: inline;left:50%;top: 50%;transform: translate(-50%,-50%);color: rgb(255,255,255);font-size: 2.3vw;width: 300px;margin: 0px auto;}
+h1.first b{background-color: rgba(20,20,20,0.5);padding:5px;margin:0px 10px;  font-size: 3.5vw;}
+section{width: 96%;margin:0px 2%;overflow: hidden;}
+section > h2{margin-top:80px;font-size: 25px;color:rgb(20,20,20);border-bottom: 1px solid rgba(200,200,200,0.5);padding-bottom: 30px;margin-bottom: 50px;}
+article.Projects{margin-top: 20px;}
+article.Projects div{width: 25%;float: left;padding:20px;}
+article.Projects div > img{position: relative;filter: grayscale(0%);-webkit-filter:grayscale(0%);}
+article.Projects div > img:hover{filter: grayscale(30%);-webkit-filter:grayscale(30%);}
+article.Projects div > h3{position: absolute;top: 0px; left: 0px;background-color: rgb(0,0,0);color: rgb(255,255,255);padding: 14px;margin: 20px;font-size: 1.3vw;}
+article > p{font-size: 1.5vw;text-align: justify;line-height: 30px;}
+article div.good{width: 25%; float: left;padding: 10px;margin:20px 0px; filter: grayscale(75%);}
+article div.good:hover{border:3px ridge;}
+div.good img{width: 100%;}
+div.good h5{font-size: 19px; color: rgb(180,180,180);letter-spacing: 3px;}
+div.good h3,div.good h5,div.good p{text-align: left;margin:20px 0px;}
+div.good p{text-align:justify; line-height: 20px;}
+button{width: 100%; text-align: center;padding: 5px;font-size: 20px;margin-top:5px;border:none; cursor: pointer;}
+button:hover{background-color: rgb(190,190,190);color:rgb(0,0,0);}
+form{width: 100%}
+form > input{width: 100%; margin: 10px 0px; border:2px outset;padding: 12px;}input:focus{border-image:url(architect/architect.jpg) 30% round;}
+input[type="text"]{font-size: 20px;}
+form > button{width: 200px;background-color:rgb(0,0,0);color:#fff;font-size: 17px;padding: 10px 0px;}
+#map{position: relative;text-align: center;;margin:40px 0%;}
+img.map{width: 98%;margin: 0px 1%;position: relative;}
+div.add{position: absolute;width: 40%; margin: 0px 0%;top: 90%; left: 0%;opacity: 0.9;bottom: 0%;overflow: hidden;}
+div.add > h2{margin-bottom: 2px;}
+footer{width: 100%;padding: 30px;background-color: rgba(190,190,190,0.2);text-align: center;font-family: segoe UI Emoji;}
+footer > span{color: green;}
+footer > a{text-decoration: none; color:color: rgb(180,180,180);}
+footer > a:hover{color: #4CAF}
